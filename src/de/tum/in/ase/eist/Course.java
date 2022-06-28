@@ -15,6 +15,10 @@ public class Course {
 		this.title = title;
 	}
 
+	public Course() {
+
+	}
+
 	public String getTitle() {
 		return this.title;
 	}
