@@ -11,6 +11,8 @@ public class OnlineCourse extends Course {
 		super(title);
 	}
 
+
+
 	public URL getUrl() {
 		return url;
 	}

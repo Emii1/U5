@@ -1,7 +1,7 @@
 package de.tum.in.ase.eist;
 
 import org.junit.jupiter.api.*;
-
+import static org.junit.jupiter.api.Assertions.*;
 class CourseTest {
 
 
@@ -24,12 +24,14 @@ class CourseTest {
        Course course = new Course();
        Assertions.assertEquals(0,course.getNumberOfAttendees());
     }
-    //@Test
+   // @Test
 
    // public void testThreeAttendees(){
-     //   Course course = new Course();
+      //  Course course = new Course("some course");
 
-    //    Assertions.assertEquals(3,course.getNumberOfAttendees());
+     //  Assertions.assertEquals(3,course.getNumberOfAttendees());
    // }
+
+
 
 }
