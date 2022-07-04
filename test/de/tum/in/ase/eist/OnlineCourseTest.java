@@ -3,9 +3,9 @@ package de.tum.in.ase.eist;
 import org.junit.jupiter.api.*;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
 
 class OnlineCourseTest {
 
