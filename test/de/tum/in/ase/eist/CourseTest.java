@@ -12,9 +12,9 @@ class CourseTest {
     public void testGetCourseTitle() {
         //given
         String name = "Eist";
-        Course course = new Course(name);
+        Course crs = new Course(name);
 
-        Assertions.assertEquals(name, course.getTitle());
+        Assertions.assertEquals(name, crs.getTitle());
 
     }
 
@@ -22,8 +22,8 @@ class CourseTest {
     @Test
 
     public void testNoAttendees() {
-        Course course = new Course();
-        Assertions.assertEquals(0, course.getNumberOfAttendees());
+        Course crs = new Course("Bllah");
+        Assertions.assertEquals(0, crs.getNumberOfAttendees());
     }
     // @Test
 
